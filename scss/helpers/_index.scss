@@ -1,0 +1,111 @@
+.banner {
+    .banner-list {
+        margin-top: -90px;
+    }
+
+    .banner-list-section {
+        position: relative;
+        box-sizing: border-box;
+        border-left: 1px solid white;
+
+        .banner-list-Mask {
+            width: 100%;
+            height: 100%;
+            background-color: $primary;
+            opacity: 0.8;
+            z-index: 1;
+            position: absolute;
+            transition-duration: 0.8s;
+        }
+
+        .banner-list-img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            filter: blur(5px);
+            transition-duration: 0.8s;
+        }
+
+        .banner-list-text {
+            font-size: 24px;
+            writing-mode: vertical-lr;
+            letter-spacing: 10px;
+            color: #fff;
+            font-weight: bold;
+            z-index: 2;
+            transition-duration: 0.8s;
+        }
+        &.active,
+        &:hover {
+            text-decoration: none;
+
+            .banner-list-text {
+                color: $primary
+            }
+
+            .banner-list-Mask {
+                background-color: rgb(245, 238, 140);
+            }
+
+            .banner-list-img {
+                filter: none;
+            }
+        }
+    }
+
+}
+.banner-bg {
+    height: 500px;
+}
+
+.break-block{
+    min-height: 250px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    @include media-breakpoint-up(md){
+        margin-top: -30px;
+        margin-bottom: -30px;
+    }
+
+}
+
+.index-info-h2{
+    @include media-breakpoint-up(md){
+        margin-top: -30px;
+    }
+    margin-top:0;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 8px;
+    .h-line{
+        letter-spacing: normal;
+        font-weight: 200;
+    }
+}
+.index-info{
+    color: $primary;
+    max-height: 350px;
+    @include media-breakpoint-up(md){
+        writing-mode: vertical-rl;
+    }
+    p{
+        line-height: 2;
+    }
+}
+
+.index-final{
+    color: $primary;
+    max-height: 500px;
+    @include media-breakpoint-up(md){
+        writing-mode: vertical-rl;
+    }
+    h2{
+        font-weight: 900;
+        line-height: 1.5;
+        letter-spacing: 8px;
+        .h-line{
+            font-weight: 200;
+            letter-spacing: normal;
+        }
+    }
+}

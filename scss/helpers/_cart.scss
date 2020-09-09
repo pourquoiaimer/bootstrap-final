@@ -1,0 +1,24 @@
+.cart-item{
+    background-color:$primary-light;
+}
+.cart-item-img{
+    width: 120px;
+    min-height: 120px;
+}
+.cart-input-group{
+    width: 130px;
+    button{
+        &:focus{
+            z-index: 1;
+        }
+    }
+    .product-qty{
+        border-color:$primary ;
+    }
+}
+.btn-delete{
+    font-size: 30px;
+    &:focus{
+        box-shadow: none;
+    }
+}

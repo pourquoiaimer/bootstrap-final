@@ -1,0 +1,13 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// every page css
+@import "helpers/layout";
+@import "helpers/index";
+@import "helpers/product";
+@import "helpers/register";
+@import "helpers/cart";
+@import "helpers/check";

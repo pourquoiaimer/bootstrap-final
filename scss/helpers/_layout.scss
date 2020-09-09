@@ -1,0 +1,138 @@
+// 新增navnar-primary配色開始
+.navbar-primary {
+    .navbar-brand {
+      color: $navbar-primary-brand-color;
+  
+      @include hover-focus() {
+        color: $navbar-primary-brand-hover-color;
+      }
+    }
+  
+    .navbar-nav {
+      .nav-link {
+        color: $navbar-primary-color;
+  
+        @include hover-focus() {
+          color: $navbar-primary-hover-color;
+          font-weight: 900;
+        }
+  
+        &.disabled {
+          color: $navbar-primary-disabled-color;
+        }
+      }
+  
+      .show > .nav-link,
+      .active > .nav-link,
+      .nav-link.show,
+      .nav-link.active {
+        color: $navbar-primary-active-color;
+        font-weight: 900;
+      }
+    }
+  
+    .navbar-toggler {
+      color: $navbar-primary-color;
+      border-color: $navbar-primary-toggler-border-color;
+    }
+  
+    .navbar-toggler-icon {
+      background-image: escape-svg($navbar-primary-toggler-icon-bg);
+    }
+  
+    .navbar-text {
+      color: $navbar-primary-color;
+      a {
+        color: $navbar-primary-active-color;
+  
+        @include hover-focus() {
+          color: $navbar-primary-active-color;
+        }
+      }
+    }
+  }
+// 新增navnar-primary配色結束
+
+html{
+  position: relative;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+header {
+    .navbar {
+        a {
+            color: $primary;
+        }
+    }
+}
+
+footer {
+    .input-group {
+        height: 100%;
+        color: $primary;
+        .input-group-prepend {
+            position: relative;
+            width: 60px;
+            .footer-icon {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+            }
+        }
+        input {
+            height: 60px;
+        }
+        .input-group-append {
+            .btn {
+                width: 60px;
+            }
+        }
+    }
+
+    .footer-info {
+        li {
+            color: $primary;
+            list-style-type:none; 
+            a {
+                color: $primary;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.footer-h{
+    color: $primary;
+    writing-mode: vertical-rl;
+    display: none;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 4px;
+    font-size: 24px;
+    .h-line{
+        font-weight: 200;
+        letter-spacing: normal;
+    }
+    @include media-breakpoint-up(md){
+        display: inline-block;
+    }   
+}
+.footer-end-icon{
+    font-size: 36px;
+}
+
+.btn-backtop{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+

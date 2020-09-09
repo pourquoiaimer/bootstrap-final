@@ -1,0 +1,78 @@
+.product-banner{
+    background-image: url(/images/product-banner.jpg);
+    height: 500px;
+    h1{
+        background-color: rgba(255,255,255,.6);
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 1.5;
+        letter-spacing: 8px;
+        @include media-breakpoint-up(md){
+            writing-mode: vertical-rl;
+            font-size: 36px;
+        }
+        .h-line{
+            font-weight: 200;
+            letter-spacing: normal;
+        }
+    }
+}
+
+#myList{
+    a{
+        &:hover,&.active{
+            background-color: $primary-light;
+            color: $primary;
+            border-color:$primary-light ;
+        }
+    }
+}
+
+.sticky-h10{
+    top: 20px;
+    font-size: 22px;
+}
+
+.product-item{
+    .item-card {
+        position: relative;
+        margin-bottom: 40px;
+            @include media-breakpoint-up(md){
+                margin-bottom: 20px;
+            }
+    }
+    .item-img {
+        height: 320px;
+    }
+    .item-tag {
+        writing-mode: vertical-lr;
+        position: absolute;
+        letter-spacing: 5px;
+        top: 0px;
+        left: 30px;
+        vertical-align: baseline;
+        background-color: $primary;
+        color:#fff;
+        p{
+            margin: 5px;
+        }
+    }
+    i {
+        color: $primary;
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        cursor: pointer;
+    }
+}
+.pagination-product{
+    li{
+        :hover{
+            background-color: $primary;
+            color: #fff;
+        }
+        a{
+            color: $primary;
+        }
+    }
+}
