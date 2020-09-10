@@ -35,6 +35,7 @@
             z-index: 2;
             transition-duration: 0.8s;
         }
+
         &.active,
         &:hover {
             text-decoration: none;
@@ -54,56 +55,66 @@
     }
 
 }
+
 .banner-bg {
     height: 500px;
 }
 
-.break-block{
+.break-block {
     min-height: 250px;
     margin-top: 20px;
     margin-bottom: 10px;
-    @include media-breakpoint-up(md){
+
+    @include media-breakpoint-up(md) {
         margin-top: -30px;
         margin-bottom: -30px;
     }
 
 }
 
-.index-info-h2{
-    @include media-breakpoint-up(md){
+.index-info-h2 {
+    @include media-breakpoint-up(md) {
         margin-top: -30px;
     }
+
     margin-top:0;
     font-weight: 900;
     line-height: 1.5;
     letter-spacing: 8px;
-    .h-line{
+
+    .h-line {
         letter-spacing: normal;
         font-weight: 200;
     }
 }
-.index-info{
+
+.index-info {
     color: $primary;
     max-height: 350px;
-    @include media-breakpoint-up(md){
+
+    @include media-breakpoint-up(md) {
         writing-mode: vertical-rl;
     }
-    p{
+
+    p {
         line-height: 2;
     }
 }
 
-.index-final{
+.index-final {
     color: $primary;
     max-height: 500px;
-    @include media-breakpoint-up(md){
+
+    @include media-breakpoint-up(md) {
         writing-mode: vertical-rl;
     }
-    h2{
+
+    h2 {
         font-weight: 900;
         line-height: 1.5;
         letter-spacing: 8px;
-        .h-line{
+
+        .h-line {
             font-weight: 200;
             letter-spacing: normal;
         }
