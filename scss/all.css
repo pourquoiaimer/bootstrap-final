@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -14926,6 +14927,11 @@ footer .footer-info li a {
   bottom: 20px;
 }
 
+body {
+  　overflow-y: scroll;
+  　overflow-x: hidden;
+}
+
 .banner .banner-list {
   margin-top: -90px;
 }
@@ -14956,6 +14962,7 @@ footer .footer-info li a {
           filter: blur(5px);
   -webkit-transition-duration: 0.8s;
           transition-duration: 0.8s;
+  overflow: hidden;
 }
 
 .banner .banner-list-section .banner-list-text {
@@ -15070,7 +15077,7 @@ footer .footer-info li a {
 
 .product-banner h1 {
   background-color: rgba(255, 255, 255, 0.6);
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 900;
   line-height: 1.5;
   letter-spacing: 8px;
