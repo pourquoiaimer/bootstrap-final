@@ -119,29 +119,6 @@ $(document).ready(function () {
       $('.btn-backtop').hide();
       console.log("hide");
     }
-    // $('.scrollTop').each(function () {
-    //   var target = $(this).attr('href');
-    //   var targetPos = $(target).offset().top;
-    //   var targetHeight = $(target).outerHeight();
-    //   if (targetPos - 1 <= scrollPos && (targetPos + targetHeight) > scrollPos) {
-    //     $('.scrollTop').removeClass('active')
-    //     $(this).addClass('active');
-    //   } else {
-    //     $(this).removeClass('active')
-    //   }
-    // });
-
-    // // progress bar
-    // var skillTop = $('#skills').position().top;
-    // // console.log('skillTop', skillTop);
-    // if (skillTop <= (scrollPos + windowHeight / 2) && !showSkill) {
-    //   showSkill = true;
-    //   $('#skills .progress-bar').each(function () {
-    //     var thisValue = $(this).data('progress');
-    //     console.log('thisValue', thisValue);
-    //     $(this).css('width', thisValue + '%');
-    //   });
-    // }
 
   });
 
