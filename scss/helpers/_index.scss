@@ -1,3 +1,8 @@
+body {
+    　overflow-y: scroll;
+    　overflow-x: hidden;
+    }
+
 .banner {
     .banner-list {
         margin-top: -90px;
@@ -24,6 +29,7 @@
             position: absolute;
             filter: blur(5px);
             transition-duration: 0.8s;
+            overflow: hidden;
         }
 
         .banner-list-text {
@@ -113,7 +119,6 @@
         font-weight: 900;
         line-height: 1.5;
         letter-spacing: 8px;
-
         .h-line {
             font-weight: 200;
             letter-spacing: normal;
