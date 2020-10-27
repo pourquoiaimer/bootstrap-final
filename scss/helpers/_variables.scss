@@ -72,8 +72,7 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
-$primary-light:          #f4e0ff !default;
-$mycolor1:          rgb(245, 238, 140)!default;
+$mycolor-yellow:          rgb(245, 238, 140)!default;
 
 
 $theme-colors: () !default;
@@ -87,8 +86,7 @@ $theme-colors: map-merge(
     "danger":     $danger,
     "light":      $light,
     "dark":       $dark,
-    "mycolor1":   $mycolor1,
-    "primary-light": $primary-light
+    "mycolor-yellow":   $mycolor-yellow,
   ),
   $theme-colors
 );

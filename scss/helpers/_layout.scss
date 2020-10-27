@@ -53,6 +53,23 @@
   }
 // 新增navnar-primary配色結束
 
+
+//部份primary-light使用
+.border-primary-light {
+  border-color: #f4e0ff !important;
+}
+
+.bg-primary-light {
+  background-color: #f4e0ff !important;
+}
+
+.text-primary-light {
+  color: #f4e0ff !important;
+}
+
+//部份primary-light使用
+
+
 html{
   position: relative;
 }
@@ -67,15 +84,7 @@ html{
     margin-left: 0;
 }
 
-header {
-    .navbar {
-        a {
-            color: $primary;
-        }
-    }
-}
-
-footer {
+.footer-contact {
     .input-group {
         height: 100%;
         color: $primary;
