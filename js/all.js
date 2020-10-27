@@ -82,24 +82,8 @@ $(document).ready(function () {
     event.preventDefault();
     if (confirm('確定要刪除這筆紀錄嗎？')) { //用了js裡面的confirm
       $(this).parents(".cart-item").remove();
+      countAll ();
     }
-
-
-    // 右側計算欄位計算-cart---(應考慮整合)
-    $(function () {
-      var allsubtotal = 0;
-      $(".product-subtotal").each(function () {
-        allsubtotal += parseInt($(this).text());
-      })
-      $('main').find('.all-subtotal').text(allsubtotal);
-
-      if (allsubtotal >= 500) {
-        $('.cart-Summary').find('.shipping').text("0")
-      }
-
-      var shipping = $('.cart-Summary').find('.shipping').text();
-      $('.cart-Summary').find('.total').text(parseInt(allsubtotal) + parseInt(shipping));
-    })
   });
 
   // 滾動回到首頁最上方//
