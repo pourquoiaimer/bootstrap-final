@@ -26,8 +26,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
-  --mycolor-yellow: #f5ee8c;
-  --primary-light: #f4e0ff;
+  --accent-yellow: #f5ee8c;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -2071,48 +2070,26 @@ pre code {
   background-color: #b9bbbe;
 }
 
-.table-mycolor-yellow,
-.table-mycolor-yellow > th,
-.table-mycolor-yellow > td {
+.table-accent-yellow,
+.table-accent-yellow > th,
+.table-accent-yellow > td {
   background-color: #fcfadf;
 }
 
-.table-mycolor-yellow th,
-.table-mycolor-yellow td,
-.table-mycolor-yellow thead th,
-.table-mycolor-yellow tbody + tbody {
+.table-accent-yellow th,
+.table-accent-yellow td,
+.table-accent-yellow thead th,
+.table-accent-yellow tbody + tbody {
   border-color: #faf6c3;
 }
 
-.table-hover .table-mycolor-yellow:hover {
+.table-hover .table-accent-yellow:hover {
   background-color: #faf6c8;
 }
 
-.table-hover .table-mycolor-yellow:hover > td,
-.table-hover .table-mycolor-yellow:hover > th {
+.table-hover .table-accent-yellow:hover > td,
+.table-hover .table-accent-yellow:hover > th {
   background-color: #faf6c8;
-}
-
-.table-primary-light,
-.table-primary-light > th,
-.table-primary-light > td {
-  background-color: #fcf6ff;
-}
-
-.table-primary-light th,
-.table-primary-light td,
-.table-primary-light thead th,
-.table-primary-light tbody + tbody {
-  border-color: #f9efff;
-}
-
-.table-hover .table-primary-light:hover {
-  background-color: #f4ddff;
-}
-
-.table-hover .table-primary-light:hover > td,
-.table-hover .table-primary-light:hover > th {
-  background-color: #f4ddff;
 }
 
 .table-active,
@@ -3110,19 +3087,19 @@ fieldset:disabled a.btn {
           box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
 }
 
-.btn-mycolor-yellow {
+.btn-accent-yellow {
   color: #212529;
   background-color: #f5ee8c;
   border-color: #f5ee8c;
 }
 
-.btn-mycolor-yellow:hover {
+.btn-accent-yellow:hover {
   color: #212529;
   background-color: #f2e969;
   border-color: #f1e75d;
 }
 
-.btn-mycolor-yellow:focus, .btn-mycolor-yellow.focus {
+.btn-accent-yellow:focus, .btn-accent-yellow.focus {
   color: #212529;
   background-color: #f2e969;
   border-color: #f1e75d;
@@ -3130,62 +3107,23 @@ fieldset:disabled a.btn {
           box-shadow: 0 0 0 0.2rem rgba(213, 208, 125, 0.5);
 }
 
-.btn-mycolor-yellow.disabled, .btn-mycolor-yellow:disabled {
+.btn-accent-yellow.disabled, .btn-accent-yellow:disabled {
   color: #212529;
   background-color: #f5ee8c;
   border-color: #f5ee8c;
 }
 
-.btn-mycolor-yellow:not(:disabled):not(.disabled):active, .btn-mycolor-yellow:not(:disabled):not(.disabled).active,
-.show > .btn-mycolor-yellow.dropdown-toggle {
+.btn-accent-yellow:not(:disabled):not(.disabled):active, .btn-accent-yellow:not(:disabled):not(.disabled).active,
+.show > .btn-accent-yellow.dropdown-toggle {
   color: #212529;
   background-color: #f1e75d;
   border-color: #f0e551;
 }
 
-.btn-mycolor-yellow:not(:disabled):not(.disabled):active:focus, .btn-mycolor-yellow:not(:disabled):not(.disabled).active:focus,
-.show > .btn-mycolor-yellow.dropdown-toggle:focus {
+.btn-accent-yellow:not(:disabled):not(.disabled):active:focus, .btn-accent-yellow:not(:disabled):not(.disabled).active:focus,
+.show > .btn-accent-yellow.dropdown-toggle:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(213, 208, 125, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(213, 208, 125, 0.5);
-}
-
-.btn-primary-light {
-  color: #212529;
-  background-color: #f4e0ff;
-  border-color: #f4e0ff;
-}
-
-.btn-primary-light:hover {
-  color: #212529;
-  background-color: #e6baff;
-  border-color: #e2adff;
-}
-
-.btn-primary-light:focus, .btn-primary-light.focus {
-  color: #212529;
-  background-color: #e6baff;
-  border-color: #e2adff;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(212, 196, 223, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(212, 196, 223, 0.5);
-}
-
-.btn-primary-light.disabled, .btn-primary-light:disabled {
-  color: #212529;
-  background-color: #f4e0ff;
-  border-color: #f4e0ff;
-}
-
-.btn-primary-light:not(:disabled):not(.disabled):active, .btn-primary-light:not(:disabled):not(.disabled).active,
-.show > .btn-primary-light.dropdown-toggle {
-  color: #212529;
-  background-color: #e2adff;
-  border-color: #dda0ff;
-}
-
-.btn-primary-light:not(:disabled):not(.disabled):active:focus, .btn-primary-light:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary-light.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(212, 196, 223, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(212, 196, 223, 0.5);
 }
 
 .btn-outline-primary {
@@ -3460,72 +3398,38 @@ fieldset:disabled a.btn {
           box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
-.btn-outline-mycolor-yellow {
+.btn-outline-accent-yellow {
   color: #f5ee8c;
   border-color: #f5ee8c;
 }
 
-.btn-outline-mycolor-yellow:hover {
+.btn-outline-accent-yellow:hover {
   color: #212529;
   background-color: #f5ee8c;
   border-color: #f5ee8c;
 }
 
-.btn-outline-mycolor-yellow:focus, .btn-outline-mycolor-yellow.focus {
+.btn-outline-accent-yellow:focus, .btn-outline-accent-yellow.focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(245, 238, 140, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(245, 238, 140, 0.5);
 }
 
-.btn-outline-mycolor-yellow.disabled, .btn-outline-mycolor-yellow:disabled {
+.btn-outline-accent-yellow.disabled, .btn-outline-accent-yellow:disabled {
   color: #f5ee8c;
   background-color: transparent;
 }
 
-.btn-outline-mycolor-yellow:not(:disabled):not(.disabled):active, .btn-outline-mycolor-yellow:not(:disabled):not(.disabled).active,
-.show > .btn-outline-mycolor-yellow.dropdown-toggle {
+.btn-outline-accent-yellow:not(:disabled):not(.disabled):active, .btn-outline-accent-yellow:not(:disabled):not(.disabled).active,
+.show > .btn-outline-accent-yellow.dropdown-toggle {
   color: #212529;
   background-color: #f5ee8c;
   border-color: #f5ee8c;
 }
 
-.btn-outline-mycolor-yellow:not(:disabled):not(.disabled):active:focus, .btn-outline-mycolor-yellow:not(:disabled):not(.disabled).active:focus,
-.show > .btn-outline-mycolor-yellow.dropdown-toggle:focus {
+.btn-outline-accent-yellow:not(:disabled):not(.disabled):active:focus, .btn-outline-accent-yellow:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-accent-yellow.dropdown-toggle:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(245, 238, 140, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(245, 238, 140, 0.5);
-}
-
-.btn-outline-primary-light {
-  color: #f4e0ff;
-  border-color: #f4e0ff;
-}
-
-.btn-outline-primary-light:hover {
-  color: #212529;
-  background-color: #f4e0ff;
-  border-color: #f4e0ff;
-}
-
-.btn-outline-primary-light:focus, .btn-outline-primary-light.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(244, 224, 255, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(244, 224, 255, 0.5);
-}
-
-.btn-outline-primary-light.disabled, .btn-outline-primary-light:disabled {
-  color: #f4e0ff;
-  background-color: transparent;
-}
-
-.btn-outline-primary-light:not(:disabled):not(.disabled):active, .btn-outline-primary-light:not(:disabled):not(.disabled).active,
-.show > .btn-outline-primary-light.dropdown-toggle {
-  color: #212529;
-  background-color: #f4e0ff;
-  border-color: #f4e0ff;
-}
-
-.btn-outline-primary-light:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-light:not(:disabled):not(.disabled).active:focus,
-.show > .btn-outline-primary-light.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(244, 224, 255, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(244, 224, 255, 0.5);
 }
 
 .btn-link {
@@ -5788,36 +5692,20 @@ a.badge-dark:focus, a.badge-dark.focus {
           box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
-.badge-mycolor-yellow {
+.badge-accent-yellow {
   color: #212529;
   background-color: #f5ee8c;
 }
 
-a.badge-mycolor-yellow:hover, a.badge-mycolor-yellow:focus {
+a.badge-accent-yellow:hover, a.badge-accent-yellow:focus {
   color: #212529;
   background-color: #f1e75d;
 }
 
-a.badge-mycolor-yellow:focus, a.badge-mycolor-yellow.focus {
+a.badge-accent-yellow:focus, a.badge-accent-yellow.focus {
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(245, 238, 140, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(245, 238, 140, 0.5);
-}
-
-.badge-primary-light {
-  color: #212529;
-  background-color: #f4e0ff;
-}
-
-a.badge-primary-light:hover, a.badge-primary-light:focus {
-  color: #212529;
-  background-color: #e2adff;
-}
-
-a.badge-primary-light:focus, a.badge-primary-light.focus {
-  outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(244, 224, 255, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(244, 224, 255, 0.5);
 }
 
 .jumbotron {
@@ -5979,32 +5867,18 @@ a.badge-primary-light:focus, a.badge-primary-light.focus {
   color: #040505;
 }
 
-.alert-mycolor-yellow {
+.alert-accent-yellow {
   color: #7f7c49;
   background-color: #fdfce8;
   border-color: #fcfadf;
 }
 
-.alert-mycolor-yellow hr {
+.alert-accent-yellow hr {
   border-top-color: #faf6c8;
 }
 
-.alert-mycolor-yellow .alert-link {
+.alert-accent-yellow .alert-link {
   color: #5f5c36;
-}
-
-.alert-primary-light {
-  color: #7f7485;
-  background-color: #fdf9ff;
-  border-color: #fcf6ff;
-}
-
-.alert-primary-light hr {
-  border-top-color: #f4ddff;
-}
-
-.alert-primary-light .alert-link {
-  color: #655c6a;
 }
 
 @-webkit-keyframes progress-bar-stripes {
@@ -6450,36 +6324,20 @@ a.badge-primary-light:focus, a.badge-primary-light.focus {
   border-color: #1b1e21;
 }
 
-.list-group-item-mycolor-yellow {
+.list-group-item-accent-yellow {
   color: #7f7c49;
   background-color: #fcfadf;
 }
 
-.list-group-item-mycolor-yellow.list-group-item-action:hover, .list-group-item-mycolor-yellow.list-group-item-action:focus {
+.list-group-item-accent-yellow.list-group-item-action:hover, .list-group-item-accent-yellow.list-group-item-action:focus {
   color: #7f7c49;
   background-color: #faf6c8;
 }
 
-.list-group-item-mycolor-yellow.list-group-item-action.active {
+.list-group-item-accent-yellow.list-group-item-action.active {
   color: #fff;
   background-color: #7f7c49;
   border-color: #7f7c49;
-}
-
-.list-group-item-primary-light {
-  color: #7f7485;
-  background-color: #fcf6ff;
-}
-
-.list-group-item-primary-light.list-group-item-action:hover, .list-group-item-primary-light.list-group-item-action:focus {
-  color: #7f7485;
-  background-color: #f4ddff;
-}
-
-.list-group-item-primary-light.list-group-item-action.active {
-  color: #fff;
-  background-color: #7f7485;
-  border-color: #7f7485;
 }
 
 .close {
@@ -7480,24 +7338,14 @@ button.bg-dark:focus {
   background-color: #1d2124 !important;
 }
 
-.bg-mycolor-yellow {
+.bg-accent-yellow {
   background-color: #f5ee8c !important;
 }
 
-a.bg-mycolor-yellow:hover, a.bg-mycolor-yellow:focus,
-button.bg-mycolor-yellow:hover,
-button.bg-mycolor-yellow:focus {
+a.bg-accent-yellow:hover, a.bg-accent-yellow:focus,
+button.bg-accent-yellow:hover,
+button.bg-accent-yellow:focus {
   background-color: #f1e75d !important;
-}
-
-.bg-primary-light {
-  background-color: #f4e0ff !important;
-}
-
-a.bg-primary-light:hover, a.bg-primary-light:focus,
-button.bg-primary-light:hover,
-button.bg-primary-light:focus {
-  background-color: #e2adff !important;
 }
 
 .bg-white {
@@ -7580,12 +7428,8 @@ button.bg-primary-light:focus {
   border-color: #343a40 !important;
 }
 
-.border-mycolor-yellow {
+.border-accent-yellow {
   border-color: #f5ee8c !important;
-}
-
-.border-primary-light {
-  border-color: #f4e0ff !important;
 }
 
 .border-white {
@@ -14650,20 +14494,12 @@ a.text-dark:hover, a.text-dark:focus {
   color: #121416 !important;
 }
 
-.text-mycolor-yellow {
+.text-accent-yellow {
   color: #f5ee8c !important;
 }
 
-a.text-mycolor-yellow:hover, a.text-mycolor-yellow:focus {
+a.text-accent-yellow:hover, a.text-accent-yellow:focus {
   color: #efe446 !important;
-}
-
-.text-primary-light {
-  color: #f4e0ff !important;
-}
-
-a.text-primary-light:hover, a.text-primary-light:focus {
-  color: #d994ff !important;
 }
 
 .text-body {
@@ -14839,6 +14675,18 @@ a.text-primary-light:hover, a.text-primary-light:focus {
 
 .navbar-primary .navbar-text a:hover, .navbar-primary .navbar-text a:focus {
   color: rgba(94, 26, 136, 0.9);
+}
+
+.border-primary-light {
+  border-color: #f4e0ff !important;
+}
+
+.bg-primary-light {
+  background-color: #f4e0ff !important;
+}
+
+.text-primary-light {
+  color: #f4e0ff !important;
 }
 
 html {
